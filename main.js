@@ -92,4 +92,23 @@ console.log(userInput);
  * If user inputs a number grater or equal to 300 show Bye user!
  */
 
+if (userInput >= 300) {
+    console.log("Bye user!")
+} else
+if (userInput >= 200) {
+    console.log("Awesome job!")
+} else 
+if (userInput >= 100) {
+    console.log("Hello user!")
+}
 
+
+if (userInput >= 100 && userInput < 199) {
+    console.log("Hello user!")
+} else
+if (userInput >= 200 && userInput < 299) {
+    console.log("Awesome job!")
+} else 
+if (userInput >= 300) {
+    console.log("Bye user!")
+}
