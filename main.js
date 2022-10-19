@@ -43,3 +43,53 @@ const noValue = null;
 const result = 2 % 4;
 
 console.log(result);
+
+// Variables can be named using capital letters, using caps lock, using numbers, underscore, dollar.
+// Keep in mind that variable names are case sensitive.
+const helloWorld = '';
+
+console.log(helloWorld);
+
+// Concatentation 
+const sum = 2 + '23';
+
+const firstName = 'Chuck';
+const lastName = 'Norris';
+
+console.log(firstName + ' ' + lastName);
+
+let number = 2;
+
+// Increment with 1
+number++;
+// Decrement by 1
+number--;
+
+console.log('This is our number', number);
+
+// greater than, less than => results in a boolean value
+
+console.log(2 > 3);
+console.log(2 < 3);
+
+// Conditional statements - (fork in the road)
+
+if (2 < 3) {
+  // If above condition is true execute the following block of code
+  console.log('Cat');
+} else {
+  // If above condition is false execute the following block of code
+  console.log('Dog');
+}
+
+const userInput = prompt('Please enter a number');
+
+console.log(userInput);
+
+/**
+ * If user inputs a number grater or equal to 100 show Hello user!
+ * If user inputs a number grater or equal to 200 show Awesome job!
+ * If user inputs a number grater or equal to 300 show Bye user!
+ */
+
+
